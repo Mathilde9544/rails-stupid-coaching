@@ -13,3 +13,19 @@
  *= require_tree .
  *= require_self
  */
+
+form {
+  width: 400px;
+  justify-content: center;
+ }
+
+ h1{
+  text-align: center;
+ }
+
+ body{
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  display: block;
+ }

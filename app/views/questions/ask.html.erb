@@ -1,0 +1,10 @@
+<div class = "position-absolute top-50 start-50 translate-middle">
+  <h1 class = m-5>Stupid Coaching</h1>
+  <div class= "ask">
+    <form class= "text-center" action="/answer" data-turbo="false">
+      <div class= p-1><label>Ask your coach anything</label></div>
+      <div><input class= p-2 type="text" name="question" value= <%= params[:question]%>></div>
+      <div class = p-3 ><input type="submit" value="Ask!" class="btn btn-primary"></div>
+    </form>
+  </div>
+</div>
